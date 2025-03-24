@@ -94,7 +94,7 @@ services:
       VERSION: "10"
       USERNAME: ${WINDOWS_USERNAME}   # Use a .env file for sensitive variables
       PASSWORD: ${WINDOWS_PASSWORD}   # Use a .env file for sensitive variables
-      RAM_SIZE: "4G"
+      RAM_SIZE: "8G"
       CPU_CORES: "4"
     cap_add:
       - NET_ADMIN
