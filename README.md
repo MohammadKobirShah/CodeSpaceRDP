@@ -62,7 +62,7 @@ sudo bash -c 'echo "{ \"data-root\": \"/tmp/docker-data\" }" > /etc/docker/daemo
 After updating the configuration, restart the Docker service:  
 
 ```bash
-sudo service restart docker
+sudo service docker restart
 ```
 
 ---
